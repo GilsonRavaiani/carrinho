@@ -8,7 +8,7 @@ let subtotalInfo = {
   valor: 11.66,
 };
 
-// Funções
+// Funções substituição dos valores e quantidade
 quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
 
 valorSubtotal.innerText = subtotalInfo.valor;
@@ -24,4 +24,3 @@ let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 function adcionarUm(){
 
 }
-console.log(quantidadeProduto01, btnAdcionarUm, subtotalInfo, valorSubtotal)
