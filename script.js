@@ -37,6 +37,17 @@ function adcionarUm(){
 // Atualizar valor subtotal
 subtotalInfo.valor = subtotalInfo.valor + valorProduto01
 
+function removerUm(){
+
+  // Incrementando a quantidade do produto
+    quantidadeProduto01.value = Number(quantidadeProduto01.value) - 1
+  
+  // Incrementando a quantidade do subtotal
+    subtotalInfo.quantidade = subtotalInfo.quantidade - 1
+  
+  // Atualizar valor subtotal
+  subtotalInfo.valor = subtotalInfo.valor - valorProduto01
+  
 // Atualizar o DOM
  atualizarDom()
   
