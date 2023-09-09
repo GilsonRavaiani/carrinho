@@ -43,13 +43,12 @@ atualizarDom()
 
 }
 
-
 function subtrairUm(){
 
-  // Incrementando a quantidade do produto
+  // Subtraindo a quantidade do produto
     quantidadeProduto01.value = Number(quantidadeProduto01.value) - 1
   
-  // Incrementando a quantidade do subtotal
+  // Subtraindo a quantidade do subtotal
     subtotalInfo.quantidade = subtotalInfo.quantidade - 1
   
   // Atualizar valor subtotal
@@ -58,7 +57,6 @@ function subtrairUm(){
   // Atualizar o DOM  
   atualizarDom()
 }
-
 
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
