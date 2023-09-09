@@ -14,7 +14,7 @@ function atualizarDom(){
 
 quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
 
-valorSubtotal.innerText = subtotalInfo.valor;
+valorSubtotal.innerText = subtotalInfo.valor.toFixed(2);
 }
 atualizarDom()
 
@@ -23,15 +23,21 @@ let btnAdcionarUm = document.getElementById('btn-adicionar-produto-01');
 
 let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 
+let valorProduto01 = 11.66
+
 // Função
 function adcionarUm(){
-  // Incrementando a quantidade do produto
+
+// Incrementando a quantidade do produto
   quantidadeProduto01.value = Number(quantidadeProduto01.value) + 1
 
-  // Incrementando a quantidade do subtotal
+// Incrementando a quantidade do subtotal
   subtotalInfo.quantidade = subtotalInfo.quantidade + 1
 
-  // Atualizar o DOM
+// Atualizar valor subtotal
+subtotalInfo.valor = subtotalInfo.valor + valorProduto01
+
+// Atualizar o DOM
  atualizarDom()
   
 }
