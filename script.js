@@ -14,3 +14,4 @@ valorSubtotal.innerText = subtotalInfo.valor;
 
 // Eventos
 
+
