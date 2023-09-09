@@ -22,5 +22,6 @@ let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 
 // Função
 function adcionarUm(){
-
+  
 }
+ console.log(quantidadeProduto01.value, quantidadeProduto01.id)
