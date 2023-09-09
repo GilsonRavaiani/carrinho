@@ -21,9 +21,17 @@ let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 
 // Função
 function adcionarUm(){
+  // Incrementando a quantidade do produto
   quantidadeProduto01.value = Number(quantidadeProduto01.value) + 1
+
+  // Incrementando a quantidade do subtotal
+  subtotalInfo.quantidade = subtotalInfo.quantidade + 1
+
+  // Atualizar o DOM
+  quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
   
 }
+
 
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
