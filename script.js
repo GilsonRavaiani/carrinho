@@ -50,13 +50,15 @@ function subtrairUm(){
     quantidadeProduto01.value = Number(quantidadeProduto01.value) - 1
   
   // Incrementando a quantidade do subtotal
-  // subtotalInfo.quantidade = subtotalInfo.quantidade - 1
+    subtotalInfo.quantidade = subtotalInfo.quantidade - 1
   
   // Atualizar valor subtotal
- // subtotalInfo.valor = subtotalInfo.valor - valorProduto01
+  subtotalInfo.valor = subtotalInfo.valor - valorProduto01
+
+  atualizarDom()
 }
 // Atualizar o DOM
- atualizarDom()
+
   
 
 // Eventos
