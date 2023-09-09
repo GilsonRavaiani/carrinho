@@ -8,11 +8,15 @@ let subtotalInfo = {
   valor: 11.66,
 };
 
-// Funções substituição dos valores e quantidade
+// Criar função atualizar o DOM 
+
+function atualizarDom(){
+
 quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
 
 valorSubtotal.innerText = subtotalInfo.valor;
-
+}
+atualizarDom()
 
 // Capturar elementos para aumentar a quantidade
 let btnAdcionarUm = document.getElementById('btn-adicionar-produto-01');
@@ -28,7 +32,7 @@ function adcionarUm(){
   subtotalInfo.quantidade = subtotalInfo.quantidade + 1
 
   // Atualizar o DOM
-  quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
+ atualizarDom()
   
 }
 // Eventos
