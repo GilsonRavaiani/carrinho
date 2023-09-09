@@ -24,4 +24,4 @@ let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 function adcionarUm(){
 
 }
-console.log(quantidadeProduto01)
+console.log(quantidadeProduto01, btnAdcionarUm, subtotalInfo, valorSubtotal)
