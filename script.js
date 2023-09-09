@@ -55,11 +55,10 @@ function subtrairUm(){
   // Atualizar valor subtotal
   subtotalInfo.valor = subtotalInfo.valor - valorProduto01
 
+  // Atualizar o DOM  
   atualizarDom()
 }
-// Atualizar o DOM
 
-  
 
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
