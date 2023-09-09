@@ -1,3 +1,12 @@
-.item-carrinho{
-  background-color: rgb(128, 128, 206);
+#carrinho{
+  background-color: rgb(236, 236, 240);
+  width: 350px;
+  height: 350px;
+  border-radius: 6%;
+  text-align: center;
 }
+#quantidade-produto-01{
+  width: 30px;
+
+}
+
