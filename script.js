@@ -21,6 +21,8 @@ atualizarDom()
 // Capturar elementos para aumentar a quantidade
 let btnAdcionarUm = document.getElementById('btn-adicionar-produto-01');
 
+let btnSubtrairUm = document.getElementById('btn-subtrair-produto-01')
+
 let quantidadeProduto01 = document.getElementById('quantidade-produto-01');
 
 let valorProduto01 = 11.66
@@ -36,8 +38,9 @@ function adcionarUm(){
 
 // Atualizar valor subtotal
 subtotalInfo.valor = subtotalInfo.valor + valorProduto01
+}
 
-function removerUm(){
+function subtrairUm(){
 
   // Incrementando a quantidade do produto
     quantidadeProduto01.value = Number(quantidadeProduto01.value) - 1
@@ -47,10 +50,11 @@ function removerUm(){
   
   // Atualizar valor subtotal
   subtotalInfo.valor = subtotalInfo.valor - valorProduto01
-  
+}
 // Atualizar o DOM
  atualizarDom()
   
-}
+
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
+btnSubtrairUm.addEventListener("click", subtrairUm)
