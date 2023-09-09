@@ -31,7 +31,5 @@ function adcionarUm(){
   quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
   
 }
-
-
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
