@@ -63,3 +63,6 @@ function subtrairUm(){
 // Eventos
 btnAdcionarUm.addEventListener("click", adcionarUm)
 btnSubtrairUm.addEventListener("click", subtrairUm)
+
+
+
