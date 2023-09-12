@@ -19,6 +19,8 @@ valorSubtotal.innerText = subtotalInfo.valor.toFixed(2);
 atualizarDom()
 
 // Capturar elementos para aumentar a quantidade
+
+
 let btnAdcionarUm = document.getElementById('btn-adicionar-produto-01');
 
 let btnSubtrairUm = document.getElementById('btn-subtrair-produto-01')
